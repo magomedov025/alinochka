@@ -4,7 +4,7 @@ const {
 require('dotenv').config()
 const text  = require('./const')
 
-const bot = new Telegraf(process.env.BOT_TOKEN);
+const bot = new Telegraf('5858636625:AAGlOTk04m5PgNY6OxW0r_08s9jnJxIDfZo');
 bot.start(async (ctx)=> {
     
     try{
